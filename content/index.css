@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.menu-navegacao-header{
+    display: flex;
+    gap: 50px;
+}
+
+.home-header{
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: #AD7A3F;
+    color: white;
+    border: none;
+}
+
+.links-header{
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.links-header:hover{
+    background-color: #AD7A3F;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.botao-zap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #AD7A3F;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.botao-zap:hover{
+    background-color: #0a8e0c;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+
